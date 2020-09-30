@@ -21,6 +21,7 @@ enum VirtualNetworkType {
     Overlay = 6;
     Internal = 7;
     Mirrored = 8;
+    OpenVSwitchBridge = 9;
 }
 
 message VirtualNetworkRequest {
